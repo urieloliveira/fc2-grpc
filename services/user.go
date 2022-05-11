@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/codeedu/fc2-grpc/pb"
+	"github.com/urieloliveira/fc2-grpc/pb"
 )
 
 // type UserServiceServer interface {

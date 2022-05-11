@@ -1,4 +1,4 @@
-module github.com/codeedu/fc2-grpc
+module github.com/urieloliveira/fc2-grpc
 
 go 1.15
 

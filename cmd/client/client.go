@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/codeedu/fc2-grpc/pb"
+	"github.com/urieloliveira/fc2-grpc/pb"
 	"google.golang.org/grpc"
 )
 
@@ -67,29 +67,29 @@ func AddUserVerbose(client pb.UserServiceClient) {
 func AddUsers(client pb.UserServiceClient) {
 	reqs := []*pb.User{
 		&pb.User{
-			Id:    "w1",
-			Name:  "Wesley",
-			Email: "wes@wes.com",
+			Id:    "u1",
+			Name:  "Uriel",
+			Email: "uriel@uriel.com",
 		},
 		&pb.User{
-			Id:    "w2",
-			Name:  "Wesley 2",
-			Email: "wes2@wes.com",
+			Id:    "u2",
+			Name:  "Uriel 2",
+			Email: "uriel2@uriel.com",
 		},
 		&pb.User{
-			Id:    "w3",
-			Name:  "Wesley 3",
-			Email: "wes3@wes.com",
+			Id:    "u3",
+			Name:  "Uriel 3",
+			Email: "uriel3@uriel.com",
 		},
 		&pb.User{
-			Id:    "w4",
-			Name:  "Wesley 4",
-			Email: "wes4@wes.com",
+			Id:    "u4",
+			Name:  "Uriel 4",
+			Email: "uriel4@uriel.com",
 		},
 		&pb.User{
-			Id:    "w5",
-			Name:  "Wesley 5",
-			Email: "wes5@wes.com",
+			Id:    "u5",
+			Name:  "Uriel 5",
+			Email: "uriel5@uriel.com",
 		},
 	}
 
@@ -120,29 +120,29 @@ func AddUserStreamBoth(client pb.UserServiceClient) {
 
 	reqs := []*pb.User{
 		&pb.User{
-			Id:    "w1",
-			Name:  "Wesley",
-			Email: "wes@wes.com",
+			Id:    "u1",
+			Name:  "Uriel",
+			Email: "uriel@uriel.com",
 		},
 		&pb.User{
-			Id:    "w2",
-			Name:  "Wesley 2",
-			Email: "wes2@wes.com",
+			Id:    "u2",
+			Name:  "Uriel 2",
+			Email: "uriel2@uriel.com",
 		},
 		&pb.User{
-			Id:    "w3",
-			Name:  "Wesley 3",
-			Email: "wes3@wes.com",
+			Id:    "u3",
+			Name:  "Uriel 3",
+			Email: "uriel3@uriel.com",
 		},
 		&pb.User{
-			Id:    "w4",
-			Name:  "Wesley 4",
-			Email: "wes4@wes.com",
+			Id:    "u4",
+			Name:  "Uriel 4",
+			Email: "uriel4@uriel.com",
 		},
 		&pb.User{
-			Id:    "w5",
-			Name:  "Wesley 5",
-			Email: "wes5@wes.com",
+			Id:    "u5",
+			Name:  "Uriel 5",
+			Email: "uriel5@uriel.com",
 		},
 	}
 
